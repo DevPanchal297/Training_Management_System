@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "CS001",
+    "Title": "Introduction to C# Programming",
+    "Level": 1,
+    "Duration": 40.5
+  },
+  {
+    "Id": "CS002",
+    "Title": "Advanced Object-Oriented Programming",
+    "Level": 3,
+    "Duration": 60.0
+  },
+  {
+    "Id": "WEB001",
+    "Title": "ASP.NET Core Web Development",
+    "Level": 2,
+    "Duration": 55.25
+  },
+  {
+    "Id": "DB001",
+    "Title": "Database Design and SQL Fundamentals",
+    "Level": 1,
+    "Duration": 35.75
+  },
+  {
+    "Id": "CLOUD001",
+    "Title": "Azure Cloud Services and Deployment",
+    "Level": 4,
+    "Duration": 72.5
+  }
+]

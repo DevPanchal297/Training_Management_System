@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SkillPro_Training_System.Models
 {
-    internal class Course
+    public class Course
     {
+        public string? Id {  get; set; }
+        public string? Title { get; set; }
+        public int? Level { get; set; }
+        public double? Duration { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SkillPro_Training_System.Models
 {
-    internal class Feedback
+    public class Feedback
     {
+        public Course course;
+        public string rating;
     }
 }

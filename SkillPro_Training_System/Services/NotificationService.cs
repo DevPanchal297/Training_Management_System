@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SkillPro_Training_System.Services
 {
-    internal class NotificationService
+    public delegate void Notification(string message);
+
+    public class NotificationService
     {
+        public event Notification OnNotification;
+        public void RaiseNotification(string message)
+        {
+            OnNotification?.Invoke(message);
+        }
     }
 }
