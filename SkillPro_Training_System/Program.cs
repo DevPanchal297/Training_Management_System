@@ -53,14 +53,17 @@ namespace SkillPro_Training_System
                         break;
                     case 3: 
                             taskManger.CompleteTask(curEmp);
-                        //FeedBack => Viewall => Analuytics
                         break;
                     case 4:
-                            
+                            curEmp.GetAssignedTasks();
                         break;
                     case 5:
+                            curEmp.GetCompletedTasks();
                         break;
-
+                    case 6:
+                        FeedbackService feedbackService = new FeedbackService();
+                        feedbackService.GetRatings();
+                        break;
                 }
             }
             while (input != 7);

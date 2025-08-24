@@ -15,8 +15,8 @@ namespace SkillPro_Training_System.Services
             List<Task1> tasks = new List<Task1>();
             foreach (var item in tasksOrder)
             {
-            Task1 task = new Task1($"{item} - {course?.Title}",course?.Id);
-            tasks.Add(task);
+                Task1 task = new Task1($"{item} - {course?.Title}", course?.Id);
+                tasks.Add(task);
             }
             return tasks;
         }
@@ -32,12 +32,12 @@ namespace SkillPro_Training_System.Services
             curEmp.assignedTasks.Dequeue();
             Console.WriteLine($"{frontOfQ.TaskTitle} is Completed!");
             curEmp.NotifyCertificateIssued($"Task '{frontOfQ.TaskTitle}' completed by {curEmp.Name}");
-            if (frontOfQ.TaskTitle.Contains("session"))
+            if (frontOfQ.TaskTitle.Contains("Session"))
             {
                 FeedbackService feedbackService = new FeedbackService();
                 string courseTitle = frontOfQ.TaskTitle.Split('-')[1].Trim();
                 Console.WriteLine($"Completed All Tasks of {courseTitle}");
-                feedbackService.GetFeedback(curEmp, frontOfQ?.courseId,courseTitle);
+                feedbackService.GetFeedback(curEmp, frontOfQ?.courseId, courseTitle);
             }
         }
     }

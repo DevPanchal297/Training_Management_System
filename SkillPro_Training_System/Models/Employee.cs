@@ -51,5 +51,20 @@ namespace SkillPro_Training_System.Models
             this.NotificationService = new NotificationService();
             this.NotificationService.OnNotification += (msg) => Console.WriteLine($"[Notification]: {msg}");
         }
+        public void GetAssignedTasks()
+        {
+            foreach (var item in assignedTasks)
+            {
+                Console.WriteLine($"Course ID: {item.courseId} Title: {item.TaskTitle}");
+            }
+        }
+        public void GetCompletedTasks()
+        {
+            Stack<Task1> st = new Stack<Task1> (completedTasks);
+            while (st.Count > 0) {
+                Console.WriteLine($"Course ID: {st.Peek().courseId} Title: {st.Peek().TaskTitle}");
+                st.Pop();
+            }
+        }
     }
 }

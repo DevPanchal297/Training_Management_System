@@ -1,0 +1,17 @@
+[
+  {
+    "courseId": "CS001",
+    "rating": 4.333333333333333,
+    "number": 3
+  },
+  {
+    "courseId": "CS002",
+    "rating": 4.0,
+    "number": 1
+  },
+  {
+    "courseId": "DB001",
+    "rating": 3.0,
+    "number": 1
+  }
+]

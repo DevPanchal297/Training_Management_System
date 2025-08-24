@@ -60,18 +60,80 @@
     "NotificationService": {}
   },
   {
-    "Name": "Dev Panchal",
+    "Name": "Dev",
     "Id": "emp006",
     "Department": "IT",
-    "Yoe": 2.0,
-    "RegId": "3be8ada5-44db-443c-9253-c602ed0c3ab6",
+    "Yoe": 5.0,
+    "RegId": "016c9cb1-821e-4a78-b23f-648d2032e4e0",
     "enrolledCourses": [
+      {
+        "Id": "CS001",
+        "Title": "Introduction to C# Programming",
+        "Level": 1,
+        "Duration": 40.5
+      },
+      {
+        "Id": "CS002",
+        "Title": "Advanced ObjectOriented Programming",
+        "Level": 3,
+        "Duration": 60.0
+      },
       {
         "Id": "DB001",
         "Title": "Database Design and SQL Fundamentals",
         "Level": 1,
         "Duration": 35.75
+      }
+    ],
+    "feedbacks": [],
+    "assignedTasks": [],
+    "completedTasks": [
+      {
+        "TaskTitle": "Show and Tell Session - Advanced ObjectOriented Programming",
+        "courseId": "CS002"
       },
+      {
+        "TaskTitle": "Complete Assignment - Advanced ObjectOriented Programming",
+        "courseId": "CS002"
+      },
+      {
+        "TaskTitle": "Complete Module - Advanced ObjectOriented Programming",
+        "courseId": "CS002"
+      },
+      {
+        "TaskTitle": "Show and Tell Session - Introduction to C# Programming",
+        "courseId": "CS001"
+      },
+      {
+        "TaskTitle": "Complete Assignment - Introduction to C# Programming",
+        "courseId": "CS001"
+      },
+      {
+        "TaskTitle": "Complete Module - Introduction to C# Programming",
+        "courseId": "CS001"
+      },
+      {
+        "TaskTitle": "Complete Module - Database Design and SQL Fundamentals",
+        "courseId": "DB001"
+      },
+      {
+        "TaskTitle": "Complete Assignment - Database Design and SQL Fundamentals",
+        "courseId": "DB001"
+      },
+      {
+        "TaskTitle": "Show and Tell Session - Database Design and SQL Fundamentals",
+        "courseId": "DB001"
+      }
+    ],
+    "NotificationService": {}
+  },
+  {
+    "Name": "Spider Man",
+    "Id": "emp007",
+    "Department": "All",
+    "Yoe": 10.0,
+    "RegId": "ab6a3b23-5fb5-4a25-b135-0a84b45e1e91",
+    "enrolledCourses": [
       {
         "Id": "CS001",
         "Title": "Introduction to C# Programming",
@@ -79,42 +141,20 @@
         "Duration": 40.5
       }
     ],
-    "feedbacks": null,
-    "assignedTasks": [
-      {
-        "TaskTitle": "Complete Module - Introduction to C# Programming"
-      },
-      {
-        "TaskTitle": "Complete Assignment - Introduction to C# Programming"
-      },
-      {
-        "TaskTitle": "Show and Tell Session - Introduction to C# Programming"
-      }
-    ],
+    "feedbacks": [],
+    "assignedTasks": [],
     "completedTasks": [
       {
-        "TaskTitle": "Show and Tell Session - Database Design and SQL Fundamentals"
+        "TaskTitle": "Show and Tell Session - Introduction to C# Programming",
+        "courseId": "CS001"
       },
       {
-        "TaskTitle": "Complete Assignment - Database Design and SQL Fundamentals"
+        "TaskTitle": "Complete Assignment - Introduction to C# Programming",
+        "courseId": "CS001"
       },
       {
-        "TaskTitle": "Complete Module - Database Design and SQL Fundamentals"
-      },
-      {
-        "TaskTitle": "Show and Tell Session - Advanced Object-Oriented Programming"
-      },
-      {
-        "TaskTitle": "Complete Assignment - Advanced Object-Oriented Programming"
-      },
-      {
-        "TaskTitle": "Complete Module - Azure Cloud Services and Deployment"
-      },
-      {
-        "TaskTitle": "Complete Assignment - Azure Cloud Services and Deployment"
-      },
-      {
-        "TaskTitle": "Show and Tell Session - Azure Cloud Services and Deployment"
+        "TaskTitle": "Complete Module - Introduction to C# Programming",
+        "courseId": "CS001"
       }
     ],
     "NotificationService": {}
